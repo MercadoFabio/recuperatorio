@@ -1,7 +1,5 @@
 export const environment = {
   production: false,
-  apiVenues : 'https://671fe0b3e7a5792f052fd920.mockapi.io/venues',
-  apiServices : 'https://671fe0b3e7a5792f052fd920.mockapi.io/services',
-  apiBookings : 'https://671fe287e7a5792f052fdf93.mockapi.io/bookings',
-  apiAvailability : 'https://671fe287e7a5792f052fdf93.mockapi.io/availability',
+  apiDepartments : 'https://6732450e2a1b1a4ae10f7723.mockapi.io/departments',
+  apiEmployees : 'https://6732450e2a1b1a4ae10f7723.mockapi.io/employees',
 };

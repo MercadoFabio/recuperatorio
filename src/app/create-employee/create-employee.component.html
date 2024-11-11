@@ -1,0 +1,90 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header">
+      <h3>Registro de Empleado</h3>
+    </div>
+    <div class="card-body">
+      <form>
+        <div class="row mb-4">
+          <h4>Información Personal</h4>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Nombre</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Apellido</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">DNI</label>
+            <input type="text" class="form-control">
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Departamento</label>
+            <select class="form-select">
+              <option value="">Seleccione...</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label">Salario Base</label>
+            <input type="number" class="form-control">
+          </div>
+        </div>
+
+        <!-- Familiares -->
+        <div class="row mb-3">
+          <div class="col">
+            <h4>Familiares</h4>
+            <div>
+              <div class="card mb-3">
+                <div class="card-body">
+                  <div class="row">
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Nombre</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Parentesco</label>
+                      <select class="form-select">
+                        <option value="">Seleccione...</option>
+                      </select>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">DNI</label>
+                      <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label class="form-label">Fecha de Nacimiento</label>
+                      <input type="date" class="form-control">
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn btn-danger">
+                        Eliminar Familiar
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-secondary">
+              Agregar Familiar
+            </button>
+          </div>
+        </div>
+
+        <div class="row mt-4">
+          <div class="col">
+            <button type="submit" class="btn btn-primary me-2">Guardar</button>
+            <button type="button" class="btn btn-secondary">
+              Cancelar
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
