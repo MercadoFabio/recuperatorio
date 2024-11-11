@@ -47,7 +47,7 @@ Deberan filtrar por el campo del nombre completo
 ### 1. Obtener Departamentos
 ```typescript
 // Request
-GET http://localhost:3000/api/departments
+GET https://6732450e2a1b1a4ae10f7723.mockapi.io/departments
 
 // Response Example
 [
@@ -62,10 +62,10 @@ GET http://localhost:3000/api/departments
 ]
 ```
 
-### 3. Crear Empleado
+### 2. Crear Empleado
 ```typescript
 // Request
-POST http://localhost:3000/api/empleados
+POST https://6732450e2a1b1a4ae10f7723.mockapi.io/employees
 
 
 // Request Body Example
@@ -88,10 +88,10 @@ POST http://localhost:3000/api/empleados
 
 ```
 
-### 4. Listar Empleados
+### 3. Listar Empleados
 ```typescript
 // Request
-GET http://localhost:3000/empleados
+GET https://6732450e2a1b1a4ae10f7723.mockapi.io/employees
 
 // Response Example
 
