@@ -130,17 +130,13 @@ GET https://6732450e2a1b1a4ae10f7723.mockapi.io/employees
    - Email: formato válido
    - Nombres: mínimo 3 caracteres
    - Salario: número positivo
-   - Fechas: formato ISO
+   - Fechas: formato ISO 8601 (YYYY-MM-DD)
 
 2. Manejo de Errores:
    - Implementar manejo básico de errores HTTP
    - Mostrar mensajes al usuario
 
-3. Formato de Datos:
-   - Fechas: ISO 8601 (YYYY-MM-DD)
-   - Valores monetarios: números sin formato
-
-4. Requisitos Técnicos:
+3. Requisitos Técnicos:
    - Usar Reactive Forms
    - Implementar FormArray para familiares
    - Usar servicios para comunicación HTTP
